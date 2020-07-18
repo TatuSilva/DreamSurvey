@@ -1,0 +1,118 @@
+body
+{
+background: url(https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2016/07/05143410/cannabis-and-dreams-side-effect.png);
+  width: 100%;
+  height: auto;
+}
+
+  .container
+{
+  background-color: #B4B4B4;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: auto;
+  opacity: 0.9;
+  padding-bottom: 20px;
+}
+
+#title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#description{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  padding: 30px 80px 30px 80px;
+  text-indent: 10px;
+}
+
+#survey-form{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.box{
+  width: 500px;
+  grid-template-columns: auto auto;
+  grid-template-row: auto auto;
+  line-height: 30px;
+  margin: auto;
+  align: right;
+  align-content: space-evenly;
+  border-radius: 10px;
+}
+
+.question{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 30px 80px 10px 80px;
+  
+}
+
+#name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#email{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#number{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+#dropdown{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 0px 60px 0px 0px;
+  margin: auto;
+  border-radius: 10px;  text-align: center;
+
+}
+
+.job
+{
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  align-content: space-evenly;
+}
+
+textarea
+{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  align-content: space-evenly;
+}
+
+#submit
+{
+  text-size: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: center;
+  align-content: space-evenly;
+}
+
+@media (max-width: 600px)
+{
+  #title {text-size: 20px;}
+  #description {text-size: 10px; padding: 20px;}
+  .box {width: 200px;}
+  textarea {width: 200px;}
+}

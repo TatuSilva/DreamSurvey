@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dream Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body>
+  <div class="container">
+    <h1 id="title"><u><b> What's your dream?</b></u></h1>
+    <p id="description"> Hello!<br><br>
+      So... What's your dream in life? First, let me know you.
+      <br><br>Answer this quick questions and I'll get back to you with more questions to make you achieve your biggest dreams!</p>
+    <hr>
+    <form id="survey-form">
+      <label id="name-label"><b>What's your name?</b></label><br>
+      <input id="name" type="text" required placeholder="Name" class="box">
+      <br>
+      <br>
+      <label id="email-label"><b>What's your email?</b></label><br>
+      <input id="email" type="email" required placeholder="email" class="box">
+      <br>
+      <br>
+      <label id="number-label"><b>How old are you?</b></label><br>
+      <input id="number" type="number" required placeholder="Age" class="box" min="10" max="110">
+      <br><br>
+      <label id="gender-label"> <b> What's your gender?</b></label><br>
+      <select id="dropdown" class="age-box">
+        <option>female</option>
+        <option>male</option>
+        <option>gender fluid</option>
+        <option>agender</option>
+      </select>
+      <br>
+      <br>
+      <label id="job-label"><b> What kind of job do you do?</b></label>
+      <br>
+      <br>
+      <div class="job">
+        <input type="radio" name="job" value="school"> I'm at school
+        <br>
+        <input type="radio" name="job" value="undergrad"> I'm undergrad
+        <br><input type="radio" name="job" value="unemployed"> I'm unemployed
+        <br>
+        <input type="radio" name="job" value="full-time-job"> I have a full time job
+        <br>
+        <input type="radio" name="job" value="homeoffice"> I do homeoffice
+        <br>
+        <input type="radio" name="job" value="rich"> I'm rich, don't need to work
+        <br>
+        <br>
+        <label id="personality-label"><b> Check the boxes that most describes you:</b></label><br>
+        <br>
+        <input type="checkbox" name="personality" value="Generosity"> Generosity<br>
+        <input type="checkbox" name="personality" value="Integrity"> Integrity<br>
+        <input type="checkbox" name="personality" value="Loyalty"> Loyalty<br>
+        <input type="checkbox" name="personality" value="Impatience"> Impatience<br>
+        <input type="checkbox" name="personality" value="Greed"> Greed<br>
+        <input type="checkbox" name="personality" value="Pessimism"> Pessimism<br>
+        <input type="checkbox" name="personality" value="Dominance"> Dominance<br>
+        <input type="checkbox" name="personality" value="Confidence"> Confidence
+        <br>
+        <input type="checkbox" name="personality" value="Persuasiveness"> Persuasiveness
+        <br>
+        <br>
+        <label id="dream"><b> What is your biggest dream in life?</b></label><br>
+        <br>
+        <textarea></textarea>
+
+        <br>
+        <button id="submit"><b>SUBMIT AND CHANGE MY LIFE</b></button>
+      </div>
+    </form>
+  </div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
